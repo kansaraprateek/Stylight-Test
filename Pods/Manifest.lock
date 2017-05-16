@@ -1,0 +1,18 @@
+PODS:
+  - ReachabilitySwift (3)
+  - SVProgressHUD (2.1.2)
+  - WebService (0.4.2)
+
+DEPENDENCIES:
+  - ReachabilitySwift (~> 3)
+  - SVProgressHUD
+  - WebService
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  WebService: ac43ba946cb6bfff781c79bf0d4d221dbf53749e
+
+PODFILE CHECKSUM: 56764b7bef88eec9cec5f2367308db23709b9f3a
+
+COCOAPODS: 1.1.1
