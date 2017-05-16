@@ -169,6 +169,8 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate{
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "brandCell", for: indexPath) as! brandCell
 
+        cell.selectionStyle = .none
+        
         var brandObject : Brand
         if tableView.tag == 0{
             brandObject = (selectedBrandArray?[indexPath.row])!
@@ -191,6 +193,11 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate{
         }
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath) as! brandCell
+        self.brandSelectedButtonPressed(sender: cell.brandCheckBox)
     }
     
     func brandSelectedButtonPressed(sender : UIButton){

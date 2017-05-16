@@ -39,7 +39,7 @@ let sectionIndexTitle : NSMutableArray = ["1","2","3","4","5","6","7","8","9","A
 class StylightColors : NSObject{
     
     //    let navigationColor = UIColor.init(red: 10/255.0, green: 86/255.0, blue: 138/255.0, alpha: 1.0)
-    let navigationColor = UIColor.init(red: 147/255.0, green: 157/255.0, blue: 158/255.0, alpha: 1.0)
+    let navigationColor = UIColor.init(red: 210/255.0, green: 220/255.0, blue: 227/255.0, alpha: 1.0)
     
     let listHeaderColor = UIColor.black
     
@@ -51,10 +51,10 @@ class StylightColors : NSObject{
     ]
     
     let AppBkg = [
-        UIColor.init(red: 125/255.0, green: 135/255.0, blue: 136/255.0, alpha: 1.0).cgColor,
-        UIColor.init(red: 225/255.0, green: 235/255.0, blue: 234/255.0, alpha: 1.0).cgColor,
-        UIColor.init(red: 147/255.0, green: 157/255.0, blue: 158/255.0, alpha: 1.0).cgColor,
-        UIColor.init(red: 169/255.0, green: 180/255.0, blue: 181/255.0, alpha: 1.0).cgColor
+        UIColor.init(red: 200/255.0, green: 210/255.0, blue: 217/255.0, alpha: 1.0).cgColor,
+        UIColor.init(red: 158/255.0, green: 167/255.0, blue: 174/255.0, alpha: 1.0).cgColor,
+        UIColor.init(red: 140/255.0, green: 150/255.0, blue: 157/255.0, alpha: 1.0).cgColor,
+        UIColor.init(red: 80/255.0, green: 89/255.0, blue: 96/255.0, alpha: 1.0).cgColor
     ]
     
     

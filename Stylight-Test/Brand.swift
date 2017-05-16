@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class Brand : NSObject {
-    var id : Int?
+    var id : Int!
     var name : String?
     var logo : String?
     var logoData : Data?

@@ -109,6 +109,7 @@ extension UINavigationController{
 
 extension UIButton {
     
+    // Setting the button image and showing the spring animation
     func setImage(image : UIImage, animated : Bool) {
         self.setImage(image, for: .normal)
         if animated{
